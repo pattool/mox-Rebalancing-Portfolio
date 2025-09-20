@@ -14,10 +14,10 @@
 1. Deploy to a fake local network that titanoboa automatically spins up!
 
 ```bash
-mox run deploy
+mox run rebalance_portfolio
 ```
 
-2. Run tests
+2. Run tests (no tests for the moment)
 
 ```
 mox test
