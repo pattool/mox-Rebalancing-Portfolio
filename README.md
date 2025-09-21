@@ -1,4 +1,4 @@
-# Moccasin Project
+# Mox Algorithmic Trading
 
 🐍 Welcome to the Portfolio Rebalance project!
 
