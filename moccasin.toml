@@ -13,7 +13,9 @@ uniswap_swap_router = {abi = "abis/uniswap_swap_router.json"}
 [networks.eth-forked]
 fork = true
 url = "$MAINNET_RPC_URL"
+is_zksync = false
 default_account_name = "anvil1"
+chain_id = 1
 
 [networks.eth-forked.contracts]
 usdc = { address = "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"}  # google: usdc address eth mainnet
@@ -29,10 +31,9 @@ uniswap_swap_router = {address = "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45"} #
 [networks.mainnet-tenderly] 
 fork = true
 url = "$TENDERLY_MAINNET_RPC_URL"
-save_to_db = false
-prompt_live = false
 is_zksync = false
 default_account_name = "anvil1"
+
 
 [networks.mainnet-tenderly.contracts]
 usdc = { address = "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"}  # google: usdc address eth mainnet
